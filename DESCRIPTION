@@ -1,0 +1,12 @@
+Package: picker
+Type: Package
+Title: Pick out (index) rows out of long-form time-series data by patterns
+Version: 0.0.1
+Date: 2018-08-22
+Authors@R: person("Krzysztof", "Sakrejda", email = "k@fawkes.io", role = c("cre", "aut"))
+Description: Long-form data is handy for many purposes (e.g.-tidyverse) but makes it more difficult to index time-series w.r.t. temporal patterns such as 'before'/'after', etc... 
+License: GPL-3
+Imports:
+    magrittr,
+    dplyr
+RoxygenNote: 6.0.1
